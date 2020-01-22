@@ -45,7 +45,7 @@
 
 * Descubriendo Vue.js
 * Getting Started
-* Componetización
+* Componentización
 * Directivas
 * Styling
 * Vue Router
@@ -70,7 +70,7 @@ La guía oficial asume conocimientos de nivel intermedio de HTML, CSS y JavaScri
 
 ### EVOLUCIÓN FRONTEND
 
-En la siguiente imagen creada por [@Manz](https://twitter.com/Manz) podrás ver cómo ha ido desde 1995 hasta hoy (2019) la evolución de tecnologias relacionadas con el mundo frontend.
+En la siguiente imagen creada por [@Manz](https://twitter.com/Manz) podrás ver cómo ha ido desde 1995 hasta hoy (2019) la evolución de tecnologías relacionadas con el mundo frontend.
 
 ![WideImg](https://pbs.twimg.com/media/D-zwqFgWkAEH8u3?format=jpg&name=4096x4096)
 [Tweet evolución Frontend](https://twitter.com/Manz/status/1147556619833806849?s=20)
@@ -81,7 +81,7 @@ LIT-HTML, concretamente es el motor para hacer templating dinámicos de LIT-ELEM
 
 JSX, es el sistema de templating que utiliza React para generar HTML a partir de una función de renderizado.
 
-Por un lado, tenemos el ecosistema CSS donde podemos ver que se generó el estándar de CSS3. A partir de ahí surgieron varias necesidades por parte de los desarrolladores que nos llevaron a crear tecnologías como SASS, LESS o Stylus. Que esencialmente son preprocesadores que nos permiten hacer nuestro CSS con algunas funcionalidades extra como crear variables comunes de CSS que podemos usar a lo largo de todos nuestros proyectos. Crear mixins para funcionalidad común dentro de nuestro CSS, etc. Gracias a este tipo de tecnologías el estándar CSS ha sido empujado, de cierta forma, para permitirnos crear variables con CSS nativo, entre otras cosas que estas herramientas nos habían bridando.
+Por un lado, tenemos el ecosistema CSS donde podemos ver que se generó el estándar de CSS3. A partir de ahí surgieron varias necesidades por parte de los desarrolladores que nos llevaron a crear tecnologías como SASS, LESS o Stylus. Que esencialmente son preprocesadores que nos permiten hacer nuestro CSS con algunas funcionalidades extra como crear variables comunes de CSS que podemos usar a lo largo de todos nuestros proyectos. Crear mixins para funcionalidad común dentro de nuestro CSS, etc. Gracias a este tipo de tecnologías el estándar CSS ha sido empujado, de cierta forma, para permitirnos crear variables con CSS nativo, entre otras cosas que estas herramientas nos habían brindado.
 
 En cuanto a la compatibilidad con otros navegadores hemos podido contar con la ayuda de tecnologías como POSTCSS o autoprefixer, que nos han ayudado a compatibilizar nuestro CSS con los navegadores con los que queremos ser compatibles y que podemos definir a día de hoy en nuestra browserlist.
 
@@ -97,7 +97,7 @@ Esto provocó que de repente, todos quisiéramos seguir el nuevo estándar y tra
 
 Debemos decir que tecnologías como Babel, Typescript o Webpack son grandes protagonistas de que estos cambios se hayan dado, puesto que en base a nuestras necesidades como desarrolladores se han ido generando tecnologías que nos permitían trabajar con lo que necesitamos.
 
-Relacionado con los WebComponents también podemos decir que el estándar ha ido avanzando de forma continuada gracias a tecnologías como Polymer o LitElement, que han conseguido practicamente que esta tecnología sea entendida y compatible con todos los navegadores modernos sin apenas utilizar polyfills.
+Relacionado con los WebComponents también podemos decir que el estándar ha ido avanzando de forma continuada gracias a tecnologías como Polymer o LitElement, que han conseguido prácticamente que esta tecnología sea entendida y compatible con todos los navegadores modernos sin apenas utilizar polyfills.
 
 Por último, la evolución del ecosistema JS ha llevado a la generación de gran cantidad de librerías y frameworks que nos han permitido hacer proyectos de todo tipo según nuestras necesidades como profesionales. Cabe destacar el fuerte impacto de jQuery en el sector y la posterior generación de tecnologías como: AngularJS, Ember, Backbone, React, Preact, Angular, Vue o Svelte.
 
@@ -119,7 +119,7 @@ Además de todas las tecnologías que han ido surgiendo durante estos años, tam
 **Javascript, APIs and Markup**
 
 Esencialmente se trata de un nuevo concepto que implica la utilización de markup estático (HTML), Javascript en el lado del cliente y APIs.
-Para poder trabajar con un proyecto de este tipo no se necesita un backend definido, solo un lugar donde *hostear* tipo Github o Netlify.
+Para poder trabajar con un proyecto de este tipo no se necesita un backend definido, sólo un lugar donde *hostear* tipo Github o Netlify.
 
 #### Static Web
 
@@ -127,7 +127,7 @@ Para poder trabajar con un proyecto de este tipo no se necesita un backend defin
 
 Se trata de una forma de trabajar que cualquier desarrollador seguro que ha utilizado en cualquier momento. Se trata de crear una web estática, que como su propio nombre indica es estática, esto quiere decir que conforme pase el tiempo no va a haber grandes cambios en su contenido.
 
-Se trata de un desarrollo especialmente sencillo, puesto que solo supone la creación de HTML para definir el contenido de la página, CSS para darle estilo y forma acordes y JS muy básico para aportar dinamicidad al proyecto.
+Se trata de un desarrollo especialmente sencillo, puesto que sólo supone la creación de HTML para definir el contenido de la página, CSS para darle estilo y forma acordes y JS muy básico para aportar dinamicidad al proyecto.
 
 Este tipo de proyecto es muy aconsejable si el contenido de la página no va a cambiar mucho, se trata de un sitio web pequeño y la interacción que precisamos de Javascript es muy básica.
 
@@ -139,7 +139,7 @@ SPA o single page aplication, se trata de un concepto muy conocido por ser ejecu
 
 Al contrario que el anterior, este tipo de aplicaciones también se caracteriza por tener contenido dinámico e información asíncrona que viene desde un servidor o APIs externas.
 
-Este tipo de aplicaciones tiene un problema muy importante y es que el contenido no es indexable por los crawlers como Google. Aunque han avanzando durante estos años su forma de indexar contenido que depende de la carga de contenido asíncrono y Javascript a día de hoy, no es seguro que indexe tu contenido adecuadamente. Por ello, es importante que se tenga en cuenta esta característica para elegir una tenología u otra.
+Este tipo de aplicaciones tiene un problema muy importante y es que el contenido no es indexable por los crawlers como Google. Aunque han avanzado durante estos años su forma de indexar contenido que depende de la carga de contenido asíncrono y Javascript a día de hoy, no es seguro que indexe tu contenido adecuadamente. Por ello, es importante que se tenga en cuenta esta característica para elegir una tecnología u otra.
 
 Este tipo de proyecto es aconsejable si no necesitas un buen SEO, si se trata por ejemplo de un backoffice. Si quieres tener una buena performance, crear componentes reutilizables y mantener un estado entre rutas.
 
@@ -155,11 +155,11 @@ Una pre-rendering SPA es interesante si necesitas una buena herramienta para hac
 
 **Nuxt**
 
-SSR, no es un concepto nuevo, es un concepto que existe practicamente desde los inicios del mundo del desarrollo. Básicamente la idea que esconde es el renderizado del sitio web en el servidor, que es lo que necesitamos esencialmente para trabajar por ejemplo con PHP, este lenguaje ha de ser interpretado para acabar mostrando el HTML que este tipo de ficheros incluye.
+SSR, no es un concepto nuevo, es un concepto que existe prácticamente desde los inicios del mundo del desarrollo. Básicamente la idea que esconde es el renderizado del sitio web en el servidor, que es lo que necesitamos esencialmente para trabajar por ejemplo con PHP, este lenguaje ha de ser interpretado para acabar mostrando el HTML que este tipo de ficheros incluye.
 
 La idea de SSR en el lado frontend es esencialmente el renderizado de nuestros componentes en el servidor como HTML strings, que posteriormente son enviados al navegador y finalmente son 'hidratados' o completados con la interactividad agregada en nuestra app en cliente.
 
-Cabe destacar que este tipo de proyectos va a precisar de un servidor que pueda funcionar con node y javascript puesto que cada vez que un usuario entra en nuestra página, ésta es generada en tiempo real. Este tipo de aplicaciones pueden ser consideradas isomorficas o universales porque el código puede ser ejecutado en servidor y en cliente.
+Cabe destacar que este tipo de proyectos va a precisar de un servidor que pueda funcionar con node y javascript puesto que cada vez que un usuario entra en nuestra página, ésta es generada en tiempo real. Este tipo de aplicaciones pueden ser consideradas isomórficas o universales porque el código puede ser ejecutado en servidor y en cliente.
 
 La funcionalidad principal que nos va a ofrecer este tipo de proyecto es tener un buen SEO aunque el contenido de la aplicación cambie dinámicamente frecuentemente. Puesto que se va indexar cada vez que su contenido cambie. Además, nos va a permitir tener una buena performance, mantener un estado entre rutas y la generación de componentes reutilizables.
 
@@ -179,15 +179,15 @@ Y empiezas a sentirte un poco perdido ante todas las opciones que hay. Pero no t
 
 * Static Web (Vue como librería)
 * SPA (Vue como framework)
-* Pre-rendering SPA (Vue vitamiando con Nuxt o VuePress)
+* Pre-rendering SPA (Vue vitaminado con Nuxt o VuePress)
 * SSR (Nuxt como framework de Vue)
 * PWA (Con Vue aunque realmente con cualquier tecnología)
 
 ### STATE OF JS
 
-State of JS es una encuesta que se realiza todos los años, esta es su cuarta edición, a todos los desarrolladores del mundo que quieran responderla para contar desde su punto de vista como está el sector tecnológico y ayuda a todos a hacernos una idea de donde está yendo a nivel general el mundo frontend.
+State of JS es una encuesta que se realiza todos los años, esta es su cuarta edición, a todos los desarrolladores del mundo que quieran responder para contar desde su punto de vista cómo está el sector tecnológico y ayuda a todos a hacernos una idea de dónde está yendo a nivel general el mundo frontend.
 
-Este año ha sido respondida por 21,717 desarrolladores de todo el mundo. Y nos ha dado nuevamente una nueva visión de todo. He extraído algunos datos que considero clave para evaluar donde está la posición de VueJS dentro del sector pero puedes ver la encuesta al completo [aquí](https://2019.stateofjs.com)
+Este año ha sido respondida por 21,717 desarrolladores de todo el mundo. Y nos ha dado nuevamente una nueva visión de todo. He extraído algunos datos que considero clave para evaluar dónde está la posición de VueJS dentro del sector pero puedes ver la encuesta al completo [aquí](https://2019.stateofjs.com)
 
 Para poder extraer una visión general de la situación actual de los distintos frameworks frontend, puedes echarle un vistazo a esta gráfica que puedes ver en este apartado de la [encuesta](https://2019.stateofjs.com/front-end-frameworks/#front_end_frameworks_section_overview).
 
@@ -257,7 +257,7 @@ Y que sin querer le llevó a crear VueJS.
 
 En primer lugar, teniendo en cuenta que hacer cambios en el DOM es algo muy costoso. Se planteó la opción de crear una copia en memoria del DOM, que hoy en día conocemos como Virtual DOM.
 
-Para conseguir un mejor rendimiento bastaría con crear un proceso de *diffing* que comparase en base a los cambios generados el DOM real y el virtual DOM, de forma que solo se modificase los nodos realmente afectados.
+Para conseguir un mejor rendimiento bastaría con crear un proceso de *diffing* que compara en base a los cambios generados el DOM real y el virtual DOM, de forma que solo se modifican los nodos realmente afectados.
 
 Si lo piensas tiene sentido.
 
@@ -265,9 +265,9 @@ Si lo piensas tiene sentido.
 
 En la imagen anterior podemos ver cuál es el comportamiento natural del DOM frente a los cambios aplicados con ayuda del virtual DOM y un proceso de diffing eficiente.
 
-- En el **DOM Nativo**: cuando un cambio surge en un nodo todos los componentes que estén a nivel jerarquico por debajo se ven obligados a ser actualizados.
+- En el **DOM Nativo**: cuando un cambio surge en un nodo todos los componentes que estén a nivel jerárquico por debajo se ven obligados a ser actualizados.
 
-- En el **virtual DOM**: cuando un cambio surge en un nodo solo afecta a ese nodo. En ningún caso se ven obligados a ser actualizados los componentes inferiores.
+- En el **virtual DOM**: cuando un cambio surge en un nodo sólo afecta a ese nodo. En ningún caso se ven obligados a ser actualizados los componentes inferiores.
 
 ### UNA PEQUEÑA COMPARATIVA
 
@@ -279,12 +279,12 @@ Ambas tecnologías tienen en común:
 
 - Virtual DOM
 - Reactivos
-- Componetización
+- Componentización
 - Tamaño
 - Performance
 - Core + Addons
 
-React por un lado, es todo Javascript, sus templates se escriben con JSX, el CSS es CSS-in-JS, tiene una curva de aprendizaje un poco superior a la de Vue y su sistema de reactivad es en cascada con el DOM nativo.
+React por un lado, es todo Javascript, sus templates se escriben con JSX, el CSS es CSS-in-JS, tiene una curva de aprendizaje un poco superior a la de Vue y su sistema de reactividad es en cascada con el DOM nativo.
 
 Vue por otro lado, nos permite escribir HTML como template de nuestros componentes, CSS y Javascript nativo. De hecho, en la versión 3 de Vue, nos ofrece la posibilidad de trabajar con Typescript pero es opcional. Y su sistema de reactividad se cumple a nivel específico, solamente en los nodos afectados.
 
@@ -296,7 +296,7 @@ Por un lado, ambas tecnologías tienen en común una buena performance y la opci
 
 Angular, es una tecnología que nos obliga a trabajar con Typescript desde el principio aunque en las últimas versiones es menos estricto en este sentido. Es una tecnología bastante más pesada que Vue, puesto que pesa ~65kb y su curva de aprendizaje es considerablemente superior a la de Vue.
 
-Vue, por otro lado, es una herramienta muy ligera. Su core pesa alrededor de 20kb y con la utilización de la librería oficial de enrutado y gestión del estado puede llegar a crecer hasta 30kb. Además, en comparación con Angular es una herramienta flexible que se adapta practicamente a cualquier tipo de proyecto o equipo.
+Vue, por otro lado, es una herramienta muy ligera. Su core pesa alrededor de 20kb y con la utilización de la librería oficial de enrutado y gestión del estado puede llegar a crecer hasta 30kb. Además, en comparación con Angular es una herramienta flexible que se adapta prácticamente a cualquier tipo de proyecto o equipo.
 
 #### Benchmark
 
@@ -314,7 +314,7 @@ Cabe destacar que las tecnologías que hemos comparado previamente: Angular, Rea
 
 ## Getting started 🖖
 
-### Por donde empezamos...
+### Por dónde empezamos...
 
 - git
 - node + npm
@@ -396,7 +396,7 @@ Una vez has hecho este pequeño ejercicio:
 - Ahora todo es reactivo.
 - Si hay cambios en el DATA, el DOM se actualiza.
 
-(*) Painting / Rendering Es interesante echar un vistazo a las herramientas de desarrollo, a la sección de rendering con la sección de paint flashing activa para ver que está pasando en cada momento.
+(*) Painting / Rendering Es interesante echar un vistazo a las herramientas de desarrollo, a la sección de rendering con la sección de paint flashing activa para ver qué está pasando en cada momento.
 
 ![WideImg](./05.png)
 
@@ -406,11 +406,11 @@ En la imagen podemos ver como funciona la reactividad en Vue, que esencialmente 
 2. Vue recorrerá todas sus propiedades y las convertirá en getters/setters
 3. Que le permitirá a Vue realizar seguimiento de las dependencias que se hayan generado
 4. Notificará los cambios cuando las propiedades son accedidas o modificadas
-5. Lo que generárá que el componente se renderice de nuevo
+5. Lo que generará que el componente se renderice de nuevo
 
 #### Precauciones
 
-Hay una serie de causísticas a tener en cuenta con el sistema de reactividad actual de Vue.
+Hay una serie de casuísticas a tener en cuenta con el sistema de reactividad actual de Vue.
 
 - Por ejemplo, si se agrega o elimina una propiedad de un **objeto**.
 
@@ -434,7 +434,7 @@ this.someObject = Object.assign({}, this.someObject, { a: 1, b: 2 })
 
 Algunos cambios con los **arrays** tampoco son detectados automáticamente y no provocan un re-renderizado.
 
-- Por ejemplo, si se setea un item con el index
+- Por ejemplo, si se setea un ítem con el index
 
 ```javascript
 // BAD
@@ -505,7 +505,7 @@ Para poder verlo en funcionamiento en un ejemplo, aquí tienes la forma de utili
 - Crea un **botón** en el que al hacer clic saldrá una casa de forma random
 - Agrega un **loader** con un temporizador de 5s para mostrar alguna animación mientras el sombrero se lo piensa
 
-> Cosas que necesitar recordar:
+> Cosas que necesitas recordar:
 
 > @click=”setHouse”
 
@@ -568,19 +568,19 @@ Lanzando estos comandos por consola ya deberías ver tu primer proyecto con Vue 
 
 ![WideImg](./06.png)
 
-Dentro de la estructura de carpetas podrás ver todos los ficheros de configuración del proyecto, una carpeta `tests`donde estarán todos los tests que generes, la carpeta `public` que es donde se ubica el html público y la carpeta `src` que es donde estará ubicado el core de tu proyecto.
+Dentro de la estructura de carpetas podrás ver todos los ficheros de configuración del proyecto, una carpeta `tests` donde estarán todos los tests que generes, la carpeta `public` que es donde se ubica el html público y la carpeta `src` que es donde estará ubicado el core de tu proyecto.
 
 ![WideImg](./07.png)
 
 Dentro de la carpeta `src` podrás encontrar:
 
-- La carpeta `assets` que es donde ubicaremos imágenes y css estáticos.
-- `components` como su propio nombre indica será donde ubicaremos los componentes de nuestra aplicación.
+- La carpeta `assets` que es donde ubicamos imágenes y css estáticos.
+- `components` como su propio nombre indica será donde ubicamos los componentes de nuestra aplicación.
 - `router` que será donde configuraremos nuestro enrutado en el futuro
 - `store` que será donde configuraremos nuestro estado global en el futuro
-- `views` que será donde ubicaremos los componentes de tipo vista
+- `views` que será donde ubicamos los componentes de tipo vista
 - `App.vue` que es nuestro componente principal
-- `main.js`que es nuestro punto de entrada en la aplicación y dónde se crea la instancia de Vue
+- `main.js` que es nuestro punto de entrada en la aplicación y dónde se crea la instancia de Vue
 
 ### Single File Components (SFC)
 
@@ -588,9 +588,9 @@ Los SFC son una de las características principales de Vue. Básicamente resumen
 
 ![WideImg](./08.png)
 
-- **Template**: que es donde ubicaremos nuestro HTML. Debe ser lo más simple y declarativa posible. Es decir, no deben incluir lógica compleja, para eso tenemos las etiquetas de `<script>`.
+- **Template**: que es donde ubicamos nuestro HTML. Debe ser lo más simple y declarativa posible. Es decir, no deben incluir lógica compleja, para eso tenemos las etiquetas de `<script>`.
 
-- **Javascript**: en esta parte ubicaremos la lógica de negocio relacionada con el componente.
+- **Javascript**: en esta parte ubicamos la lógica de negocio relacionada con el componente.
 
 - **Style**: en función de si queremos que los estilos queden anclados solamente al componente, podemos poner el atributo "scoped" o no.
 
@@ -633,7 +633,7 @@ components: { HelloWorld }
 - Crea un componente para el botón **app-button** que incluya la funcionalidad random
 - Estructura esperada: App.vue > SortinHat.vue > AppButton.vue
 
-> Cosas que necesitar recordar:
+> Cosas que necesitas recordar:
 
 > HelloWorld.vue
 
@@ -658,7 +658,7 @@ components: { HelloWorld }
 - [Comparación entre frameworks](https://vuejs.org/v2/guide/comparison.html)
 - [Benchmark Frameworks JS](https://stefankrause.net/js-frameworks-benchmark8/table.html)
 - [Vue Reactividad](https://vuejs.org/v2/guide/reactivity.html)
-- [Precacuiones de reactividad en listas](https://vuejs.org/v2/guide/list.html#Caveats)
+- [Precauciones de reactividad en listas](https://vuejs.org/v2/guide/list.html#Caveats)
 - [Cómo funciona la reactividad en Vue](https://www.youtube.com/watch?v=axXwWU-L7RM)
 - [Cómo implementan la reactividad React, Vue y Angular](https://www.youtube.com/watch?v=VyzlZl6LlqM)
 

@@ -39,21 +39,19 @@ Temario
 * Arquitectura de proyecto
 * Herramientas de desarrollo
 
-**Componetización**
+**Componentización**
 * Definición de componentes
 * Arquitectura basada en componentes
 * Single File Components
-* Atributos: Data, Computed, Watch
-* Métodos: Ciclo de vida (Hooks) y métodos propios
-* Componentes avanzados
+* Atributos: Data, Computed, Watch, Props
+* Métodos: Métodos, Ciclo de vida (Hooks) y emisión de eventos
 * Mixins
 * Slots
-* Animaciones
 * Web components
 
 **Directivas**
 * Directivas generales
-* v-model
+* Directiva v-model
 * Renderizado condicional
 * Renderizado de listas
 
