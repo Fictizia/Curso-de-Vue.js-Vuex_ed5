@@ -10,10 +10,7 @@
 * Arquitectura basada en componentes
 * Single File Components
 * Atributos: Data, Computed, Watch, Props
-* Métodos: Métodos, Ciclo de vida (Hooks) y emisión de eventos
-* Mixins
-* Slots
-* Web components
+* Métodos: Métodos
 
 ### NORMAS E INFORMACIÓN DE INTERÉS
 
@@ -526,7 +523,7 @@ Dentro de los distintos **métodos** que puede tener un componente encontramos e
 
 ![WideImg](./07.png)
 
-#### Atributos - Métodos
+#### Métodos
 
 Los métodos tienen como objetivo principal ejecutar cierta lógica en base a una acción por parte del usuario.
 
@@ -588,15 +585,15 @@ También podemos utilizar **modificadores** de eventos de teclado para ejecutar 
 
 Tenemos a nuestra disposición por defecto todos estos:
 
-.enter
-.tab
-.delete
-.esc
-.space
-.up
-.down
-.left
-.right
+- .enter
+- .tab
+- .delete
+- .esc
+- .space
+- .up
+- .down
+- .left
+- .right
 
 Aunque tenemos todos estos modificadores definidos por defecto también podemos ejecutar lógica en base al keycode o código de la tecla que estamos pulsando. Si desconoces esta información, puedes visitar esta [página](https://keycode.info/) para ver cuál es el código de cualquier tecla.
 

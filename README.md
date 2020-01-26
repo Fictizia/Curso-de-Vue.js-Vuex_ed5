@@ -28,18 +28,31 @@ Temario
 =================
 
 **Descubriendo Vue.js**
+
+* Frontend: HTML, CSS y JS
+* Evolución frontend
+* Tipos de proyecto
+* Fatiga frontend
+* State of JS
+* ¿Por qué gusta Vue?
+* ¿Por qué ME gusta Vue?
 * ¿Qué es Vue?
 * Un poco de historia
-* Ventajas / Inconvenientes
+* Una pequeña comparativa
 
 **Getting Started**
-* Instalando vue-cli
-* Templates de Vue.js
-* Creación de proyecto
-* Arquitectura de proyecto
+
 * Herramientas de desarrollo
+* Tipos de proyecto
+* Vue como librería
+* Reactividad
+* Registro de componentes
+* Vue como framework
+* Arquitectura de proyecto
+* SFC
 
 **Componentización**
+
 * Definición de componentes
 * Arquitectura basada en componentes
 * Single File Components
@@ -50,41 +63,54 @@ Temario
 * Web components
 
 **Directivas**
+
 * Directivas generales
 * Directiva v-model
 * Renderizado condicional
 * Renderizado de listas
 
 **Styling**
+
 * Configuración de preprocesadores
 * Scoped vs general
 * Ecosistema de dependencias
 
 **Vue Router**
+
+* vue-router
 * Enrutado de aplicación básico
+* Definición de rutas
+* Configuración router-link
 * Gestión de información entre rutas
-* Interceptores de rutas
+* Segmentos dinámicos
+* Página no encontrada
 * Rutas anidadas
-* Redirecciones, Navigation Guards
+* Navegación programática
+* Navigation Guards
+* Transitions
 * Lazy loading
 
 **Vuex**
+
 * Gestión del estado: concepto y análisis
 * Arquitectura de estado
 * Acciones & mutaciones
 * Getters / Setters
 
 **Testing**
+
 * Análisis de proyecto
 * Testing atómico
 * Jest: test unitarios y de integración
 * Cypress: test de aceptación
 
 **Buenas prácticas**
+
 * Code Styling
 * Arquitectura
 
 **Ecosistema**
+
 * Axios
 * Nuxt
 * Firebase

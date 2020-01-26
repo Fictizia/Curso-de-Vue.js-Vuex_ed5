@@ -6,17 +6,27 @@
 
 **Descubriendo Vue.js**
 
+* Frontend: HTML, CSS y JS
+* Evolución frontend
+* Tipos de proyecto
+* Fatiga frontend
+* State of JS
+* ¿Por qué gusta Vue?
+* ¿Por qué ME gusta Vue?
 * ¿Qué es Vue?
 * Un poco de historia
-* Ventajas / Inconvenientes
+* Una pequeña comparativa
 
 **Getting Started**
 
-* Instalando vue-cli
-* Templates de Vue.js
-* Creación de proyecto
-* Arquitectura de proyecto
 * Herramientas de desarrollo
+* Tipos de proyecto
+* Vue como librería
+* Reactividad
+* Registro de componentes
+* Vue como framework
+* Arquitectura de proyecto
+* SFC
 
 ### NORMAS E INFORMACIÓN DE INTERÉS
 
@@ -38,7 +48,6 @@
 * Teoría + práctica
 * Curso progresivo
 * Repositorio Github
-* Presentaciones
 * Ejercicios
 
 ### TEMARIO
@@ -110,7 +119,7 @@ Resumiendo la evolución frontend en los últimos años ha sido:
 * Webcomponents, Polymer, LitElement…
 * Backbone, AngularJS, Ember, Angular, React, Vue...
 
-### EVOLUCIÓN FRONTEND
+### TIPOS DE PROYECTO
 
 Además de todas las tecnologías que han ido surgiendo durante estos años, también han surgido varios conceptos que debemos tener en cuenta para entender en qué punto entra Vue en juego.
 
@@ -212,7 +221,7 @@ En la imagen anterior podemos ver concretamente la comparativa de qué piensa la
 
 Para ver en detalle la opinión generalizada de Vue, puedes visitar este enlace de la [encuesta](https://2019.stateofjs.com/front-end-frameworks/vuejs/)
 
-#### POR QUÉ GUSTA VUE?
+#### ¿POR QUÉ GUSTA VUE?
 
 En la encuesta del [año pasado](https://2018.stateofjs.com/front-end-frameworks/vuejs/) pudimos ver en concreto cuáles son aquellas cosas por las que Vue está gustando tanto. Esencialmente son los siguientes puntos:
 
@@ -224,7 +233,7 @@ En la encuesta del [año pasado](https://2018.stateofjs.com/front-end-frameworks
 - 🎁 Ecosistema de paquetes muy completo
 - 📉 Aumento de popularidad
 
-#### POR QUÉ ME GUSTA VUE?
+#### ¿POR QUÉ ME GUSTA VUE?
 
 - ✔️ Back to the basics: HTML, CSS, JS
 - ✔️ Flexible - Proyecto / Equipo
@@ -661,6 +670,3 @@ components: { HelloWorld }
 - [Precauciones de reactividad en listas](https://vuejs.org/v2/guide/list.html#Caveats)
 - [Cómo funciona la reactividad en Vue](https://www.youtube.com/watch?v=axXwWU-L7RM)
 - [Cómo implementan la reactividad React, Vue y Angular](https://www.youtube.com/watch?v=VyzlZl6LlqM)
-
-
-
