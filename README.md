@@ -19,7 +19,7 @@ Teoría y recursos
 | ----------------------------------- |
 | [Clase 1](clases/clase-1/README.md) |
 | [Clase 2](clases/clase-2/README.md) |
-| Clase 3 |
+| [Clase 3](clases/clase-3/README.md) |
 | Clase 4 |
 | Clase 5 |
 | Clase 6 |
